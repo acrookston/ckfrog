@@ -1,0 +1,38 @@
+h1. CKFrog - CKEditor plugin for Frog CMS
+
+h2. About
+
+Created by Andrew Crookston at CA Systems
+Email: andrew at casystems dot se
+Web: "http://www.casystems.se":http://www.casystems.se	
+
+The CKFrog plugin adds the possibility to edit your Frog CMS pages with the WYSIWYG editor CKEditor.
+Currently it is very simple and lacks support for using the CKFinder or viewing files on the server.
+The images viewer and CKFinder are in the roadmap.
+
+Released under GPL License.
+The source code is available at github: "http://github.com/acrookston/ckfrog/tree":http://github.com/acrookston/ckfrog/tree
+
+The CKEditor is released under various licenses (GPL among others) and may be downloaded on it's own from "http://ckeditor.com/":http://ckeditor.com/
+
+*Enjoy!*
+
+
+h2. Installation
+
+To install CKFrog make sure you have git installed on your system.
+Then follow these easy instructions:
+
+<pre>
+cd [your_frog_installation]/frog/plugins/
+git clone git://github.com/acrookston/ckfrog.git
+</pre>
+
+Enter the admin page of your Frog installation and activate the plugin on the "Administration" page.
+
+h2. Disclaimer
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
