@@ -20,6 +20,19 @@ The CKEditor is released under various licenses (GPL among others) and may be do
 
 h2. Installation
 
+There are two ways of installing CKFrog:
+
+h3. 1. Get the tarball
+
+Download the tarball from here: "http://github.com/acrookston/ckfrog/tarball/master":http://github.com/acrookston/ckfrog/tarball/master
+
+Unpack the tarball in:
+<pre>
+[your_frog_installation]/frog/plugins/
+</pre>
+
+h3. 2. With Git
+
 To install CKFrog make sure you have git installed on your system.
 Then follow these easy instructions:
 
@@ -27,6 +40,8 @@ Then follow these easy instructions:
 cd [your_frog_installation]/frog/plugins/
 git clone git://github.com/acrookston/ckfrog.git
 </pre>
+
+h3. For both installations:
 
 Enter the admin page of your Frog installation and activate the plugin on the "Administration" page.
 

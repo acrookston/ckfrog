@@ -4,12 +4,13 @@
  */
  $plugin_dir = dirname($_SERVER['PHP_SELF']);
  
+ header('Content-Type: application/x-javascript');
+ 
  
 ?>
 var ckfrog_config = {
   // Define changes to CKEditor default configuration here. For example:
-  // config.language = 'fr';
-  // config.uiColor = '#AADC6E';
-  
-  // baseHref: '<?=$plugin_dir?>/jscripts/ckeditor/'
+  // language: 'fr',
+  // uiColor: '#AADC6E',
+  // baseHref: '<?=$plugin_dir?>/jscripts/ckeditor/',
 }
